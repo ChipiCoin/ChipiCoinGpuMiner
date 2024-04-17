@@ -1,4 +1,4 @@
-# README
+# RU
 
 [Сообщество](https://t.me/blckbazars)
 
@@ -31,7 +31,7 @@ TONAPI_TOKEN=your-token
 Чтобы превратить любой стартовый скрипт в мульти, надо заменить `send_universal` на `send_multigpu --gpu-count X`, где Х кол-во ваших GPU.
 Больше ничего менять не нужно, можно запускать.
 
-## EN
+# EN
 [Community](https://t.me/blckbazars)
 
 [Jetton channel](https://t.me/chipicoin)
