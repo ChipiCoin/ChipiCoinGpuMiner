@@ -1,4 +1,4 @@
-# README
+# RU
 
 [Сообщество](https://t.me/blckbazars)
 
@@ -28,11 +28,10 @@ TONAPI_TOKEN=your-token
 
 ### Multi GPU
 Можно запустить несколько видеокарт одним скриптом. Пример в файле `start_multi_8.sh` и `start_multi_8.bat`.
-Чтобы превратить любой стартовый скрипт в мульти, надо заменить `send_universal` на `send_multigpu`
-`--gpu 0` заменить на `--gpu-count X`, где Х кол-во ваших GPU.
+Чтобы превратить любой стартовый скрипт в мульти, надо заменить `send_universal` на `send_multigpu --gpu-count X`, где Х кол-во ваших GPU.
 Больше ничего менять не нужно, можно запускать.
 
-## EN
+# EN
 [Community](https://t.me/blckbazars)
 
 [Jetton channel](https://t.me/chipicoin)
@@ -60,6 +59,6 @@ A free token is enough for 1 miner.
 To start the miner with tonapi use `start_tonapi_X.bat` or `start_tonapi_X.sh` (with suffix \_amd for computers without CUDA).
 
 ### Multi GPU
-You can start multiple GPU's with one script. Examples are in start_multi_8.sh and start_multi_8.bat.
-To turn any start script into a multi script, replace send_universal with send_multigpu --gpu 0 with --gpu-count X, where X is the number of your GPUs.
+You can start multiple GPU's with one script. Examples are in `start_multi_8.sh` and `start_multi_8.bat`.
+To turn any start script into a multi script, replace `send_universal` with `send_multigpu --gpu-count X`, where X is the number of your GPUs.
 You don't need to change anything else, it is ready to run.
